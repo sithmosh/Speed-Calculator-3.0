@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <center>
+
+    <title>Pick Speed Calculator 3.0</title>
+    <link rel="stylesheet" href="\\SPORL-fs1\sp ORL file share\All Teams\ECOMM\Speed Calculator 3.0\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Pick Speed Calculator 3.0</h1>
+
+        <h2>Choose Your Shoppers</h2>
+
+    <div class="shoppers">
+
+
+        <button class="tm-Button" id = "btn-AV" onclick="tmButton(alejandroV, 'btn-AV')">Alejandro V</button>
+        <button class="tm-Button" id = "btn-AR" onclick="tmButton(alexR, 'btn-AR')">Ritter</button>
+        <button class="tm-Button" id = "btn-ALF"onclick="tmButton(alfredo, 'btn-ALF')">Alfredo</button>
+        <button class="tm-Button" id = "btn-AG" onclick="tmButton(anaG, 'btn-AG')">Ana</button>
+        <button class="tm-Button" id = "btn-AH" onclick="tmButton(audreyH, 'btn-AH')">Audrey</button>
+        <button class="tm-Button" id = "btn-BH" onclick="tmButton(brianH, 'btn-BH')">Brian</button>
+        <button class="tm-Button" id = "btn-CO" onclick="tmButton(chandaO, 'btn-CO')">Chanda</button>
+        <button class="tm-Button" id = "btn-CD" onclick="tmButton(christineD, 'btn-CD')">Chris D</button>
+        <button class="tm-Button" id = "btn-CP" onclick="tmButton(chrisP, 'btn-CP')">Chris P</button>
+        <button class="tm-Button" id = "btn-CS" onclick="tmButton(clarissaS, 'btn-CS')">Clarissa</button>
+        <button class="tm-Button" id = "btn-DW" onclick="tmButton(deniellW, 'btn-DW')">Deniell</button>
+        <button class="tm-Button" id = "btn-EW" onclick="tmButton(emilyW, 'btn-EW')">Emily</button>
+        <button class="tm-Button" id = "btn-EA" onclick="tmButton(ericA, 'btn-EA')">Eric</button>
+        <button class="tm-Button" id = "btn-FP" onclick="tmButton(fabiolaP, 'btn-FP')">Fabiola</button>
+        <button class="tm-Button" id = "btn-GL" onclick="tmButton(gabriellaL, 'btn-GL')">Gabriella</button>
+        <button class="tm-Button" id = "btn-GA" onclick="tmButton(guilianaA, 'btn-GA')">Guliana</button>
+        <button class="tm-Button" id = "btn-JV" onclick="tmButton(joetteV, 'btn-JV')">Joette</button>
+        <button class="tm-Button" id = "btn-JM" onclick="tmButton(joseM, 'btn-JM')">Jose</button>
+        <button class="tm-Button" id = "btn-JS" onclick="tmButton(joshS, 'btn-JS')">Josh</button>
+        <button class="tm-Button" id = "btn-KC" onclick="tmButton(kylahC, 'btn-KC')">Kylah</button>
+        <button class="tm-Button" id = "btn-LB" onclick="tmButton(lisetteB, 'btn-LB')">Lisette</button>
+        <button class="tm-Button" id = "btn-MG" onclick="tmButton(marisaG, 'btn-MG')">Marisa</button>
+        <button class="tm-Button" id = "btn-MS" onclick="tmButton(mayaS, 'btn-MS')">Maya</button>
+        <button class="tm-Button" id = "btn-NR" onclick="tmButton(naiyaR, 'btn-NR')">Naiya</button>
+        <button class="tm-Button" id = "btn-NG" onclick="tmButton(nancyG, 'btn-NG')">Nancy</button>
+        <button class="tm-Button" id = "btn-NE" onclick="tmButton(nickE, 'btn-NE')">Nick</button>
+        <button class="tm-Button" id = "btn-SB" onclick="tmButton(sherrieB, 'btn-SB')">Sherrie</button>
+        <button class="tm-Button" id = "btn-SC" onclick="tmButton(sienaC, 'btn-SC')">Siena</button>
+        <button class="tm-Button" id = "btn-SP" onclick="tmButton(sofiaP, 'btn-SP')">Sofia</button>
+        <button class="tm-Button" id = "btn-TG" onclick="tmButton(tavianG, 'btn-TG')">Tavian</button>
+        <button class="tm-Button" id = "btn-TL" onclick="tmButton(tiffL, 'btn-TL')">Tiff</button>
+    </div>
+        <h2 class="pick-speed-header">Pick Speed:</h2>
+        <button class="pick-speed-generate">Generate</button>
+        <p class="uph">Units Per Hour</p>
+        <div class = "bottom"><p class="pick-speed">???</p>
+            </div>
+            <p class = "upm">Units Per Minute</p>
+            <div class = "more-bottom-er"><p class="pick-speed-2">???</p>
+                </div>
+    <div class="units-left">
+      <form class="units-left-form" action="index.html" method="post">
+        <input placeholder="Units Left"type="number" id = "units-left-input">
+        <p class="time-to-complete-header">Minutes Until Completed</p>
+        <p class="time-to-complete">???</p>
+          </form>
+        <button class= "units-left-submit" onclick="timeToComplete()">Submit</button>
+        <p></p>
+<button class="reset" onclick="reset()">Reset</button>
+    </div>
+
+<script src="\\SPORL-fs1\sp ORL file share\All Teams\ECOMM\Speed Calculator 3.0\HTML\script.js"></script>
+  </body>
+</html>
